@@ -14,7 +14,7 @@ var Promise = require('bluebird');
 
 
 var fetchProfileAndWriteToFile = function(readFilePath, writeFilePath) {
-  // TODO
+  return pluckFirstLineFromFileAsync(readFilePath, console.log(data));
 };
 
 // Export these functions so we can test them
